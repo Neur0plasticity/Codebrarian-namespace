@@ -75,11 +75,11 @@ const namespace = [
 
 "structure","interface","organization","anatomy","frame","template",
 
-"protocol","packet","contract","message",
+"protocol","packet","contract","message","compass",
 
 "constraint","validation","proof","test","proof","authentication",
 
-"remote","network",
+"remote","network","contact"
 
 "connect","link",
 
@@ -91,13 +91,19 @@ const namespace = [
 
 "language","compile","interpet","transpile",
 
-"program","file","main"
+"program","file","main",
+
+"directory","catalogable","roster","book",
 
 "referance","variable","dependency",
 
 "input","ouput","param","arg","result","yield",
 
+"condition","pivot","switches",""
+
 "data","value",
+
+"element","root","base",""
 
 "singular","plural",
 "uni","multi"

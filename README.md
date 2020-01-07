@@ -75,7 +75,7 @@ const namespace = [
 
 "structure","interface","organization","anatomy","frame","template",
 
-"protocol","packet","contract","message","compass",
+"protocol","packet","contract","message","compass","package",
 
 "constraint","validation","proof","test","proof","authentication",
 
@@ -99,7 +99,7 @@ const namespace = [
 
 "input","ouput","param","arg","result","yield",
 
-"condition","pivot","switches",""
+"condition","pivot","switches","case",""
 
 "data","value",
 
@@ -128,6 +128,8 @@ const namespace = [
 "stop","halt","kill",
 
 "lock","freeze","seal",
+
+"box","capsule","container","bubble",
 
 "open","peel",
 

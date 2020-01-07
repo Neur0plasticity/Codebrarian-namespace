@@ -3,17 +3,41 @@ Systemic Unique Naming Library AKA single word code dictionary
 
 NAMING CONSTRAINTS
 * unique entries; no duplicates
-* overrides or tweaks names of programming language namespace
+* overrides or tweaks names of programming language namespace ... possibly just prefixes everything with _$
 * a-z characters only ... no symbols yet
 
+Why?
+* namespaces can be params
+* namespaces can be variables
+* namespaces are just anything with a name ... it roots names
+* might as build automated functionality around reusable words
 
 
+ABSTRACTIONS
 
-
-
-
-
-
+interface namespaceOBJ {
+  [index:name]: nameslot
+}
+interface nameslot {
+  name:       string,
+  notes:      string[],
+  //datatype:   string,
+  constraints:string[]
+  
+  //// nameslots thought out ////
+  // why no datatype?
+  // why constraints?
+    // numerical differences matter 
+    // key characteristics give away duplications or suggest missing attributes/props
+  // how does the namespace aid the code translations, predictions, and error handling
+  // how to deal with umbrella words
+  // when are the words to specific
+}
+abstract namespace {
+  // uses a list class
+  // no duplications
+  // 
+}
 
 
 
@@ -52,7 +76,7 @@ const namespace = [
 
 "language","compile","interpet","transpile",
 
-"program","file",
+"program","file","main"
 
 "referance","variable","dependency",
 

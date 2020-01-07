@@ -45,7 +45,18 @@ abstract namespace {
 
 
 
+// ALL WORDS PRELISTED INSIDE OF NAMESPACE NEED ROOT MEANING EXAMINATION
+//// look for words that double meaning like "task"  ... I task(you, with this) what is my task:{} like a method & data packet
 
+//// clever functional naming system ////
+
+multipurpose root     /////  post()      /// method // verb & nounish
+objectable root       /////  post        /// { id, headers, msgs } .
+action / doer         /////  poster .    /// Action class
+state / past/finished /////  posted      /// Measureable States
+plural                /////  posts       /// List Plurals
+ables                 /////  postable    /// object building
+undo / revert         /////  unpost      /// revert changes
 
 const namespace = [
 /** 
@@ -70,6 +81,10 @@ const namespace = [
 
 "remote","network",
 
+"connect","link",
+
+"disconnect", "seperate",
+
 "transfer","transport","send","receive","import","export",
 
 "scope","accessibility","permissions",
@@ -82,18 +97,52 @@ const namespace = [
 
 "input","ouput","param","arg","result","yield",
 
+"data","value",
+
 "singular","plural",
+"uni","multi"
 
 "operate / operators","equation","function","method","lambda","function","procedure","instruction","routine",
 
-"compute","execute","invoke","call",
+"task","job","purpose",
+
+"service","utility","use"
+
+"creational","structural","behavioral",
+
+"synchronous","asynchronous","concurrency","distributed","parallel",
+
+"merge","join","combine","fuse","meld",
+"split","sever",
+
+"assemble", "build", "construct",
+
+"compute","execute","invoke","call","run",
+
+"stop","halt","kill",
+
+"lock","freeze","seal",
+
+"open","peel",
 
 "convert","translate","transform","modify",
 
+"generate","factory","machine","engine",
+
 "id","name","alias",
 
-"properties","attributes",
+"properties","attributes","description",
 
-"begin","start","finish","end","pre","dur","post",
+"begin","start","pre",
+"dur",
+"finish","end","post",
+
+"observe   / observer   / observable", 
+"subscribe / subscriber / subscribable"
+
+"numer / numerver / numerable / numerate  / numerated / numerates / numers / numered",
+
+"count / counter / countable / counterate / counterated / counterates / counters / counted"
+
 
 ];

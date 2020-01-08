@@ -11,7 +11,7 @@ Why?
 * namespaces can be variables
 * namespaces are just anything with a name ... it roots names
 * might as build automated functionality around reusable words
-
+* synonyms bloat the language, mostly because names reserved with datatypes. no more datatype orientations
 
 ABSTRACTIONS
 
@@ -76,6 +76,7 @@ const namespace = [
 "structure","interface","organization","anatomy","frame","template",
 
 "protocol","packet","contract","message","compass","pack",
+"form","model","scheme",""
 
 "cluster","batch","bundle","array","collection","heap","stack",
 
@@ -107,12 +108,16 @@ const namespace = [
 
 "data","value",
 
-"element","root","base",""
+"element","root","base","source",
+
+"cause","effect",
 
 "singular","plural",
 "uni","multi"
 
-"operate / operators","equation","function","method","lambda","function","procedure","instruction","routine",
+"operate / operators","equation","function","method","lambda","function","procedure","instruction","routine","process",
+
+"action","
 
 "task","job","purpose",
 
@@ -161,203 +166,49 @@ const namespace = [
 //// 101 DUO NOUN VERBS to filter out to computer actions
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-act
-address
 
-aim
-
-answer
-
-back
-
-balloon
-
-bank
-
-battle
-
-bear
-
-bend
-
-blast
-
-block
-
-break
-
-brush
-
-catch
-
-challenge
-
-charge
-
-cheer
-
-color
-
-cook
-
-crack
-
-curl
-
-cycle
-
-dance
-
-design
-
-die
-divorce
-
-double
-
-doubt
-
-dust
-
-echo
-
-end
-
-estimate
-
-face
-
-finish
-
-fish
-
-flood
-
-fool
-
-frown
-
-garden
-
-glue
-
-guard
-
-guess
-
-hammer
-
-hand
-
-head
-
-hug
-
-insult
-
-iron
-
-joke
-
-kick
-kiss
-
-laugh
-
-loan
-
-love
-
-man
-
-march
-
-milk
-
-name
-
-number
-
-object
-
-order
-
-paddle
-
-peel
-
-permit
-
-play
-
-pop
-
-practice
-
-produce
-
-punch
-
-question
-
-quiz
-
-rhyme
-
-rock
-
-roll
-
-run
-sand
-
-saw
-
-skate
-
-smell
-
-surprise
-
-thunder
-
-tie
-
-time
-
-toast
-
-trace
-
-train
-
-treat
-
-trick
-
-use
-
-vacuum
-
-value
-
-visit
-
-wake
-
-walk
-
-water
-
-wish
-
-work
-
-x-ray
-
-yawn
-
-zone
+* "back" is not real. Computers always move forwards.  // direction("forw | back")
+* 
+
+design        FOR DIFFERENT USE CASE
+divorce       PHYSCHOLOGICAL MIND FUCK
+double        TERRIBLE, QUANTIFIABLE NEEDS NO WORDS
+doubt         DEBATEABLE , COULD BE GOOD FOR "FAIL SAFE" TERMINOLOGY
+dust          A SYNONYM FOR GARBAGE COLLECTION
+estimate      FOR DIFF USE CASE
+fish          FOR DIFF USE CASE
+glue          FIND SYNONYMS
+kick          FOR HIGHER LEVEL USE CASES
+play          DEBATEABLE FIND SYNONYMS
+train         FOR DIFFERENT USE CASE
+bend          FIND SYNONYM
+visit         UNKNOWN
+wake          UNKNOWN
+work          UNNKOWN
+zone          FIND SYNONYMS
+
+
+answer        DEBATEABLE
+bank          DEBATEABLE
+bear          DEBATEABLE
+blast         DEBATEABLE
+block         DEBATEABLE
+break         DEBATEABLE
+catch         DEBATEABLE
+charge        DEBATEABLE
+crack         DEBATEABLE
+cycle         DEBATEABLE
+echo          DEBATEABLE
+face          DEBATEABLE
+flood         DEBATEABLE
+flush         DEBATEABLE
+guard         DEBATEABLE
+hand          DEBATEABLE
+head          DEBATEABLE
+loan          DEBATEABLE
+man           DEBATEABLE
+permit        DEBATEABLE
+trace         DEBATEABLE
 
 
 

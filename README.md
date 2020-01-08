@@ -104,14 +104,22 @@ const namespace = [
 
 "structure","interface","organization","anatomy","frame","template",
 
-"protocol","packet","contract","message","compass","pack","head",w
+"protocol","packet","contract","message","compass","pack","head",
 "form","model","scheme","",
 
+"config","standard","custom",
 
+"static","fixed",
+
+"dynamic",
+
+"event",
+
+"flow", 
 
 "cluster","batch","bundle","array","collection","heap","stack",
 
-"constraint","validation","proof","test","proof","auth","guard",
+"constraint","validation","proof","test","proof","auth","guard","filter",
 
 "request","response","reply","answer","ask",
 
@@ -127,7 +135,7 @@ const namespace = [
 
 "language","compile","interpet","transpile",
 
-"program","file","main",
+"program","file","main","script",
 
 "directory","catalogable","roster","book",
 
@@ -139,14 +147,14 @@ const namespace = [
 
 "data","value",
 
-"element","root","base","source",
+"element","root","base","source","core","seed",
 
 "cause","effect",
 
 "singular","plural",
-"uni","multi"
+"uni","multi","poly",
 
-"operate / operators","equation","function","method","lambda","function","procedure","instruction","routine","process",
+"operate / operators","equation","function","method","lambda","function","procedure","instruction","routine","process","expression"
 
 "action","
 
@@ -156,7 +164,7 @@ const namespace = [
 
 "creational","structural","behavioral",
 
-"synchronous","asynchronous","concurrency","distributed","parallel",
+"synchronous","asynchronous","concurrency","distributed","parallel","sequence","serial",
 
 "merge","join","combine","fuse","meld",
 "split","sever",
@@ -179,17 +187,22 @@ const namespace = [
 
 "generate","factory","machine",
 
-"hand",
+"hand / hanlder","control",
 
-"loop","engine","cycle",
+"loop","engine","cycle","brute"
 
 "id","name","alias",
 
 "properties","attributes","description",
 
+"inherit","extend",
+
 "begin","start","pre",
 "dur",
 "finish","end","post",
+
+"boot","cold boot","hot boot",
+
 
 "break", // used for breaking loops
 "catch",

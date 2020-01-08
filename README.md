@@ -12,7 +12,6 @@ Why?
 * namespaces are just anything with a name ... it roots names
 * might as build automated functionality around reusable words
 
-
 Datatypes Conflictions
 * synonyms bloat the language, similar names spread throught datatype oriented methods
 * datatypes returned selection bloats naming & handling information
@@ -92,6 +91,9 @@ const namespace = [
 "bit","data","memory","cache","ram","store / storage",
 "bank",
 
+"flood","blast","fill",
+"flush"
+
 "logic",
 
 "create","read","update","delete",
@@ -107,7 +109,7 @@ const namespace = [
 
 "cluster","batch","bundle","array","collection","heap","stack",
 
-"constraint","validation","proof","test","proof","authentication",
+"constraint","validation","proof","test","proof","auth","guard",
 
 "request","response","reply","answer","ask",
 
@@ -175,6 +177,8 @@ const namespace = [
 
 "generate","factory","machine",
 
+"hand",
+
 "loop","engine","cycle",
 
 "id","name","alias",
@@ -220,15 +224,9 @@ visit         UNKNOWN
 wake          UNKNOWN
 work          UNNKOWN
 zone          FIND SYNONYMS
-blast         DEBATEABLE
 echo          FOR DIFF USE CASE
 face          UNKNOWN
 
-flood         DEBATEABLE
-flush         DEBATEABLE
-
-guard         DEBATEABLE
-hand          DEBATEABLE
 head          DEBATEABLE
 loan          DEBATEABLE
 man           DEBATEABLE

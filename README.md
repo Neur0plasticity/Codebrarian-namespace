@@ -104,8 +104,10 @@ const namespace = [
 
 "structure","interface","organization","anatomy","frame","template",
 
-"protocol","packet","contract","message","compass","pack",
-"form","model","scheme",""
+"protocol","packet","contract","message","compass","pack","head",w
+"form","model","scheme","",
+
+
 
 "cluster","batch","bundle","array","collection","heap","stack",
 
@@ -227,29 +229,10 @@ zone          FIND SYNONYMS
 echo          FOR DIFF USE CASE
 face          UNKNOWN
 
-head          DEBATEABLE
 loan          DEBATEABLE
 man           DEBATEABLE
 permit        DEBATEABLE
 trace         DEBATEABLE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

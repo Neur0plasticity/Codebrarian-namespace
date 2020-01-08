@@ -11,7 +11,37 @@ Why?
 * namespaces can be variables
 * namespaces are just anything with a name ... it roots names
 * might as build automated functionality around reusable words
-* synonyms bloat the language, mostly because names reserved with datatypes. no more datatype orientations
+
+
+Datatypes Conflictions
+* synonyms bloat the language, similar names spread throught datatype oriented methods
+* datatypes returned selection bloats naming & handling information
+
+i.e. datatypes synonyms bloat society
+
+// All rely on values exists or find value or contains value, etc.
+// Input Args have diff syntaxes, which is just codebase complexity-stupidity
+
+  Object.hasOwnProperty();
+  String.includes();
+  Array.includes();
+  Map.has();
+  Set.has();
+
+solution
+
+  // data = any relevant datatype
+
+  find(data,value,handler);
+  // or sugar syntax
+  data.find(value,handler);
+  
+  // All of the synonyms method perform the same concept, tho return different values;
+  // configurable programming can fix this.
+  // handler is return as datatype-option or callback, or found value
+  // The configurable programming would have somekind of transpiler that removes 
+  // the extra conditional processing caused by the inputs. The whole point is to make the coding as loopable as possible.
+
 
 ABSTRACTIONS
 
@@ -39,12 +69,6 @@ abstract namespace {
   // 
 }
 
-
-
-
-
-
-
 // ALL WORDS PRELISTED INSIDE OF NAMESPACE NEED ROOT MEANING EXAMINATION
 //// look for words that double meaning like "task"  ... I task(you, with this) what is my task:{} like a method & data packet
 
@@ -66,12 +90,15 @@ const namespace = [
  * figureout the distinctions, agree on in uses for system
 */
 "bit","data","memory","cache","ram","store / storage",
+"bank",
 
 "logic",
 
 "create","read","update","delete",
 
 "post","get","put","delete",
+
+"bear",
 
 "structure","interface","organization","anatomy","frame","template",
 
@@ -140,11 +167,15 @@ const namespace = [
 
 "box","capsule","container","bubble",
 
-"open","peel",
+"block",
+
+"open","peel","crack",
 
 "convert","translate","transform","modify",
 
-"generate","factory","machine","engine",
+"generate","factory","machine",
+
+"loop","engine","cycle",
 
 "id","name","alias",
 
@@ -153,6 +184,9 @@ const namespace = [
 "begin","start","pre",
 "dur",
 "finish","end","post",
+
+"break", // used for breaking loops
+"catch",
 
 "observe   / observer   / observable", 
 "subscribe / subscriber / subscribable"
@@ -186,22 +220,13 @@ visit         UNKNOWN
 wake          UNKNOWN
 work          UNNKOWN
 zone          FIND SYNONYMS
-
-
-answer        DEBATEABLE
-bank          DEBATEABLE
-bear          DEBATEABLE
 blast         DEBATEABLE
-block         DEBATEABLE
-break         DEBATEABLE
-catch         DEBATEABLE
-charge        DEBATEABLE
-crack         DEBATEABLE
-cycle         DEBATEABLE
-echo          DEBATEABLE
-face          DEBATEABLE
+echo          FOR DIFF USE CASE
+face          UNKNOWN
+
 flood         DEBATEABLE
 flush         DEBATEABLE
+
 guard         DEBATEABLE
 hand          DEBATEABLE
 head          DEBATEABLE

@@ -11,10 +11,12 @@ Why?
 * namespaces can be variables
 * namespaces are just anything with a name ... it roots names
 * might as build automated functionality around reusable words
+*** when variables, params, & builtins are named but different values/definitions. It's confusing. Causes delays.
 
 Datatypes Conflictions
-* synonyms bloat the language, similar names spread throught datatype oriented methods
+* synonyms bloat the language, similar names spread through datatype oriented methods
 * datatypes returned selection bloats naming & handling information
+* different datatypes for same namespaces causes programmers to code unneccessary handlers, sometimes deadcode.
 
 i.e. datatypes synonyms bloat society
 

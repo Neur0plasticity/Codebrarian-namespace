@@ -21,7 +21,6 @@ export interface namespaceValue {
     // }
 };
 
-
 const intface = {
     notes: function(val:string[]) {
         val.forEach((e)=>{
